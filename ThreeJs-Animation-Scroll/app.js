@@ -14,7 +14,8 @@ const scene = new THREE.Scene();
 let bee;
 let mixer;
 const loader = new GLTFLoader();
-loader.load('/demon_bee_full_texture.glb',
+//loader.load('/demon_bee_full_texture.glb',
+loader.load('https://mehdiakram.github.io/youtube_v2_lundevweb/ThreeJs-Animation-Scroll/demon_bee_full_texture.glb',
     function (gltf) {
         bee = gltf.scene;
         scene.add(bee);
